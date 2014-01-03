@@ -2,12 +2,10 @@
 
 %hook BBBulletin
 
-- (void)setSectionID:(NSString*)arg1{
-        BOOL isSkype = [arg1 isEqualToString: @"com.skype.skype"];
-        
-        if (isSkype){
+- (void)setSectionID:(NSString*)arg1
+{
+        if ([arg1 isEqualToString: @"com.skype.skype"])
                 [self setMessage: @"New Message"];
-        }
 
         %orig(arg1);
 }
