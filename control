@@ -1,0 +1,9 @@
+Package: com.dpkgdan.noskypepreview
+Name: No Skype Preview
+Depends: mobilesubstrate
+Version: 1.1.3
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Dan Saba
+Author: Dan Saba
+Section: Tweaks
